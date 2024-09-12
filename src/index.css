@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Specific for Webkit-based browsers */
+.category-button-group::-webkit-scrollbar {
+    display: none;
+}
+
+/* For Firefox */
+.category-button-group {
+    scrollbar-width: none;
+}
